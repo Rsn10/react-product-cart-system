@@ -1,8 +1,8 @@
 import axios from 'axios'
 
 const apiClient = axios.create({
-  baseURL: process.env.REACT_APP_API_BASE_URL,
-  timeout: parseInt(process.env.REACT_APP_API_TIMEOUT),
+  baseURL: "https://dummyjson.com",
+  timeout: parseInt(5000),
   headers: {
     'Content-Type': 'application/json',
   },
