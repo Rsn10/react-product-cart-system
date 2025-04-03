@@ -1,0 +1,15 @@
+export const API_ENDPOINTS = {
+  PRODUCTS: "/products",
+  PRODUCT_SEARCH: "/products/search",
+};
+
+export const FETCH_PRODUCTS_REQUEST = "FETCH_PRODUCTS_REQUEST";
+export const FETCH_PRODUCTS_SUCCESS = "FETCH_PRODUCTS_SUCCESS";
+export const FETCH_PRODUCTS_FAILURE = "FETCH_PRODUCTS_FAILURE";
+export const SET_SEARCH_TERM = "SET_SEARCH_TERM";
+export const SET_SORT_ORDER = "SET_SORT_ORDER";
+
+export const ADD_TO_CART = "ADD_TO_CART";
+export const REMOVE_FROM_CART = "REMOVE_FROM_CART";
+export const UPDATE_QUANTITY = "UPDATE_QUANTITY";
+export const CLEAR_CART = "CLEAR_CART";
