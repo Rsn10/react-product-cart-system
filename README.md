@@ -20,14 +20,10 @@ https://reactshopnow.netlify.app/
 2. Install dependencies:
    npm install
 
-3. Create a .env file in the root directory with the following content:
-   REACT_APP_API_BASE_URL=https://dummyjson.com
-   REACT_APP_API_TIMEOUT=5000
-
-4. Start the development server:
+3. Start the development server:
    npm start
 
-5. Open your browser:
+4. Open your browser:
    http://localhost:3000
 
 ## API Integration
