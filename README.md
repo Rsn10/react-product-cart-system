@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/3543af14-a684-416f-b566-e7777c294242)
+![image](https://github.com/user-attachments/assets/6532b742-b051-4b24-9263-496b945ee3e3)
+![image](https://github.com/user-attachments/assets/a19058c7-7975-43bd-946a-9d82c4c411c7)
 
 ## Tech Stack
 - React.js (Functional Components & Hooks)
