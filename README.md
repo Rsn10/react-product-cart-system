@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/3543af14-a684-416f-b566-e7777c294242)
+
 ## Tech Stack
 - React.js (Functional Components & Hooks)
 - Redux (State Management)
@@ -25,5 +27,21 @@
    http://localhost:3000
 
 ## API Integration
-  Fetch products: GET https://dummyjson.com/products?limit=10&skip=0
-  Search products: GET https://dummyjson.com/products/search?q={query}
+1. **Fetch Products**
+      **GET** https://dummyjson.com/products
+   
+   **Parameters:**
+      **limit:** Number of products per request (default: 10)
+      **skip:** Pagination offset (e.g., skip=10 gets next 10 products)
+   
+   **Example:**
+      **GET** https://dummyjson.com/products?limit=10&skip=0
+      Returns first 10 products
+
+2. **Search Products**
+      **GET** https://dummyjson.com/products/search?q={query}
+      Searches product titles and descriptions
+
+   **Example:**
+      **GET** https://dummyjson.com/products/search?q=phone
+      Returns all products matching "phone"
