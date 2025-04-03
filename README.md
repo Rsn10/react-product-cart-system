@@ -11,7 +11,7 @@
 
 ## Installation
 1. Clone the repository:
-   git clone (https://github.com/Rsn10/react-product-cart-system.git)
+   git clone https://github.com/Rsn10/react-product-cart-system.git
    cd react-product-cart-system
 
 2. Install dependencies:
